@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F68135;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #6AC5E2;
+}
+
+main {
+    padding: 60px;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F68135
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    padding: 2px;
+    background-color: #6AC5E2;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+#boton {
+    padding: 40px;
+    background-color: #6AC5E2;
+    border-radius: 15%;
+    border: 0;
+    align-self: center;
+}
+
+html {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+#boton>a {
+    font-size: 30px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+#boton>a:hover {
+    transition: 1;
+    font-size: 30px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #2F67B5;
+}
+
+#boton>a:visited {
+    font-size: 30px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
